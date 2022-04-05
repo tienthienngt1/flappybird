@@ -1,10 +1,12 @@
-import Game from "./components/Game"
+import Background from "./components/Background"
+import Author from "./components/Author"
 import './App.css'
 
 function App() {
   return (
     <>
-     <Game />
+     <Background />
+     <Author />
     </>
   );
 }

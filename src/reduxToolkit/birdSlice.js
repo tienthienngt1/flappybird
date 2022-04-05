@@ -3,7 +3,6 @@ import { createSlice} from "@reduxjs/toolkit" ;
 const birdSlice = createSlice({
   name: "bird",
   initialState: {
-    status: 0,
     coordinate: 220, 
     rotation: 0,
   }, 
@@ -12,22 +11,23 @@ const birdSlice = createSlice({
       if(state.coordinate <= 0) {
         state.coordinate = 0;
       }else {
-        state.coordinate = state.coordinate - 40;
+        state.coordinate = state.coordinate - 50;
       }
-      state.rotation = -45
+      state.rotation = -55
      } ,
     down: (state) => {
       if(state.coordinate >= 500) {
         state.coordinate = 500;
       }else {
-        state.coordinate = state.coordinate + 15;
+        state.coordinate = state.coordinate + 20;
       }
       state.rotation = 0
     },
-    refresh: (state) => {
+    refreshBird: (state) => {
       state.coordinate = 220
+      state.rotation = 0
     }
   }
 })
-export const { fly, down, refresh } = birdSlice.actions
+export const { fly, down, refreshBird } = birdSlice.actions
 export default birdSlice.reducer

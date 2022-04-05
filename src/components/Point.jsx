@@ -1,12 +1,17 @@
+import {useSelector} from "react-redux"
 
 const Point = () => {
+  const {general} = useSelector(state=>state)
   return (
     <div style={{
       position: "absolute", 
-      top: "50%" , 
-      left: "50%"
+      top: "20px",
+      width: "100%"
     }} >
-      <h2>10</h2>
+    <center>
+      <h1> SCORE </h1>
+      <h2>{general.point}</h2>
+    </center>
     </div>
   )
 }
