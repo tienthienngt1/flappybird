@@ -1,19 +1,22 @@
 {
   "files": {
     "main.css": "/flappybird/static/css/main.fc9294ca.css",
-    "main.js": "/flappybird/static/js/main.2a9e883e.js",
+    "main.js": "/flappybird/static/js/main.d5f23098.js",
+    "static/media/ngauhung.mp3": "/flappybird/static/media/ngauhung.d478aec9ed61d1b38756.mp3",
     "static/media/pipe_up.png": "/flappybird/static/media/pipe_up.90e3d08a66b503d1392d.png",
     "static/media/bird.png": "/flappybird/static/media/bird.002a3647d661fd9c9944.png",
     "static/media/replayButton.png": "/flappybird/static/media/replayButton.720fa048f37d8f94c6e8.png",
     "static/media/playButton.png": "/flappybird/static/media/playButton.8cba2f688388f16986c5.png",
     "static/media/background.jpg": "/flappybird/static/media/background.c55ed7582a00f90bf3da.jpg",
+    "static/media/point.mp3": "/flappybird/static/media/point.02dd6c8e743096042492.mp3",
     "static/media/author.gif": "/flappybird/static/media/author.587ab6bf5bb63a0bcfc3.gif",
+    "static/media/die.mp3": "/flappybird/static/media/die.6068ebb200bd8347ff96.mp3",
     "index.html": "/flappybird/index.html",
     "main.fc9294ca.css.map": "/flappybird/static/css/main.fc9294ca.css.map",
-    "main.2a9e883e.js.map": "/flappybird/static/js/main.2a9e883e.js.map"
+    "main.d5f23098.js.map": "/flappybird/static/js/main.d5f23098.js.map"
   },
   "entrypoints": [
     "static/css/main.fc9294ca.css",
-    "static/js/main.2a9e883e.js"
+    "static/js/main.d5f23098.js"
   ]
 }
