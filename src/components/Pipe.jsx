@@ -9,7 +9,7 @@ const Pipe = (prop) => {
       right: prop.pipe.coordinate,
       width: '60px',
       height: prop.pipe.pipeDown,
-      transition: "all 0.2s linear", 
+      transition: "all 0.3s linear", 
      }}>
      <img src = {pipe_up} width = '60px' height="400px" style={{
        objectPosition: "bottom"
@@ -22,7 +22,6 @@ const Pipe = (prop) => {
         width: '60px',
         height: prop.pipe.pipeUp,
         transform: 'rotate(180deg)',
-        transition: "all 0.2s linear", 
        }}>
          <img src = {pipe_up} width = '60px'height="400px" style={{ objectPosition: "top" }} alt="pipe" />
       </div>  

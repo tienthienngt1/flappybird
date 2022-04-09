@@ -16,6 +16,7 @@ const Bird = () => {
      top: bird.coordinate + 'px',
      left: '50px', 
      zIndex: "10",
+     transition: "all 100ms linear",
      transform: "rotate(" + bird.rotation + "deg)", 
    }}>
       <img src={ birdJpg } alt="bird" width='40px' height = '40px' />
